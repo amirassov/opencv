@@ -280,8 +280,8 @@ typedef uint32_t __u32;
 #define MAX_CAMERAS 8
 
 // default and maximum number of V4L buffers, not including last, 'special' buffer
-#define MAX_V4L_BUFFERS 10
-#define DEFAULT_V4L_BUFFERS 4
+#define MAX_V4L_BUFFERS 1
+#define DEFAULT_V4L_BUFFERS 1
 
 // if enabled, then bad JPEG warnings become errors and cause NULL returned instead of image
 #define V4L_ABORT_BADJPEG
